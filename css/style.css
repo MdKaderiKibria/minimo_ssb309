@@ -1,0 +1,257 @@
+/* 
+
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
+*/
+
+/* global css start */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.wrapper2{
+    width: 85%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.c_light{
+    margin-top: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #626262;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.c_h{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+}
+.c_p{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    line-height: 20px;
+}
+/* header start */
+header{
+    padding: 20px 0px;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 80%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    color: #626262;
+    font-size: 16px;
+    margin: 0 55px;
+    padding: 5px 5px;
+    display: inline-block;
+    text-transform: capitalize;
+    border-bottom: 1px solid transparent;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a{
+    margin-right: 0px;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    
+}
+.banner_content img{
+    width: 100%;
+}
+/* banner end */
+
+/* gateway start */
+.gateway{
+    padding-top: 45px;
+}
+/* gateway end */
+
+/* blog start */
+.blog{
+    padding: 70px 0px;
+}
+.single{
+    width: 46%;
+    float: left;
+}
+.single:nth-child(even){
+    margin-left: 8%;
+}
+.single:nth-child(3){
+    margin-top: 60px;
+}
+.single:nth-child(4){
+    margin-top: 60px;
+}
+.single img{
+    width: 100%;
+}
+/* blog end */
+
+
+/* sign up start */
+.sign_up{
+    background-color: #f0f0f0;
+    padding: 70px 0px;
+}
+.sign_content{
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+.sign_content h1{
+    text-align: center;
+}
+.sign_text{
+    font-family: 'Playfair Display', serif;
+    width: 80%;
+    float: left;
+    margin-top: 50px;
+}
+.sign_text input{
+    border: none;
+    background: transparent;
+}
+.sign_text input:active{
+    border: none;
+    background: transparent;
+}
+
+.sign_text input:focus{
+    outline: none;
+}
+.sign_img{
+    width: 8%;
+    float: right;
+    margin-top: 50px;
+}
+.sign_img img{
+    width: 100%;
+    cursor: pointer;
+}
+
+/* sign up end */
+
+/* load start */
+.load{
+    text-align: center;
+    padding: 70px 0px 140px;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.load button:hover{
+    background-color: #626262;
+    color: #ffff;
+}
+.load button:focus{
+    outline: none;
+}
+/* load end */
+/* footer start */
+footer{
+    padding: 35px 0px;
+    background-color: #f0f0f0;
+}
+.terms{
+    width: 40%;
+    float: left;
+}
+.terms ul{
+    float: left;
+}
+.terms ul li{ 
+    float: left;
+    list-style: none;
+}
+.terms ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #626262;
+    margin: 0px 20px;
+}
+.terms ul li:first-child a{
+    margin-left: 0;
+}
+.social{
+    width: 40%;
+    float: right;    
+}
+.social ul{
+    float: right;
+}
+.social ul li{
+    float: left;
+    list-style: none;
+}
+.social ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #626262;
+    margin: 0px 20px;
+}
+.social ul li:last-child a{
+    margin-right: 0px;
+}
+/* footer end */
